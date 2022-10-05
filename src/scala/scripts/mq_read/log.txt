@@ -1,0 +1,1047 @@
+[info] welcome to sbt 1.3.13 (Oracle Corporation Java 1.8.0_181)
+[info] loading settings for project mq_read-build from plugins.sbt ...
+[info] loading project definition from /home/ergo.liferunoffinsuranceplatform.com/kdamarla/lip-core-dwh/src/scala/scripts/mq_read/project
+[info] loading settings for project mq_read from build.sbt ...
+[info] set current project to spark-mq-receiver (in build file:/home/ergo.liferunoffinsuranceplatform.com/kdamarla/lip-core-dwh/src/scala/scripts/mq_read/)
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] Run completed in 79 milliseconds.
+[info] Total number of tests run: 0
+[info] Suites: completed 0, aborted 0
+[info] Tests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0
+[info] No tests were executed.
+[error] 164 errors were encountered during merge
+[error] java.lang.RuntimeException: deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:META-INF/versions/9/module-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:META-INF/versions/9/module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.jar:codegen/config.fmpp
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar:codegen/config.fmpp
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.jar:git.properties
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.jar:git.properties
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.jar:git.properties
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Inject.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Inject.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Named.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Named.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Provider.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Provider.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Qualifier.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Qualifier.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Scope.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Scope.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Singleton.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Singleton.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/BytesMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/BytesMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Connection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Connection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ConnectionConsumer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ConnectionConsumer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ConnectionMetaData.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ConnectionMetaData.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/DeliveryMode.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/DeliveryMode.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Destination.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Destination.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ExceptionListener.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ExceptionListener.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/IllegalStateException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/IllegalStateException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/InvalidClientIDException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/InvalidClientIDException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/InvalidDestinationException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/InvalidDestinationException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/InvalidSelectorException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/InvalidSelectorException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/JMSException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/JMSException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/JMSSecurityException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/JMSSecurityException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MapMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MapMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Message.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Message.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageConsumer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageConsumer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageEOFException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageEOFException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageFormatException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageFormatException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageListener.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageListener.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageNotReadableException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageNotReadableException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageNotWriteableException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageNotWriteableException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageProducer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageProducer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ObjectMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ObjectMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Queue.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Queue.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueBrowser.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueBrowser.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueReceiver.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueReceiver.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueRequestor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueRequestor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueSender.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueSender.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ResourceAllocationException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ResourceAllocationException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ServerSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ServerSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ServerSessionPool.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ServerSessionPool.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Session.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Session.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/StreamMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/StreamMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TemporaryQueue.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TemporaryQueue.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TemporaryTopic.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TemporaryTopic.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TextMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TextMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Topic.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Topic.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicPublisher.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicPublisher.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicRequestor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicRequestor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicSubscriber.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicSubscriber.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TransactionInProgressException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TransactionInProgressException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TransactionRolledBackException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TransactionRolledBackException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAQueueConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAQueueConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAQueueConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAQueueConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAQueueSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAQueueSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XASession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XASession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XATopicConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XATopicConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XATopicConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XATopicConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XATopicSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XATopicSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/XMLConstants.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:javax/xml/XMLConstants.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/namespace/NamespaceContext.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:javax/xml/namespace/NamespaceContext.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/namespace/QName.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:javax/xml/namespace/QName.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/EventFilter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/EventFilter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryConfigurationError.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryConfigurationError.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder$1.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinder.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinder.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinderConcrete.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinderConcrete.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/Location.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/Location.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/StreamFilter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/StreamFilter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLEventFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLEventFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLEventReader.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLEventReader.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLEventWriter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLEventWriter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLInputFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLInputFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLOutputFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLOutputFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLReporter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLReporter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLResolver.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLResolver.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamConstants.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamConstants.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamReader.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamReader.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamWriter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamWriter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Attribute.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Attribute.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Characters.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Characters.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Comment.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Comment.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/DTD.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/DTD.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EndDocument.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EndDocument.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EndElement.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EndElement.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EntityDeclaration.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EntityDeclaration.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EntityReference.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EntityReference.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Namespace.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Namespace.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/NotationDeclaration.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/NotationDeclaration.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/ProcessingInstruction.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/ProcessingInstruction.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/StartDocument.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/StartDocument.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/StartElement.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/StartElement.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/XMLEvent.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/XMLEvent.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/EventReaderDelegate.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/EventReaderDelegate.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/StreamReaderDelegate.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/StreamReaderDelegate.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/XMLEventAllocator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/XMLEventAllocator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/XMLEventConsumer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/XMLEventConsumer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/Advice.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/Advice.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/AspectException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/AspectException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Interceptor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Interceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Invocation.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Invocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Joinpoint.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Joinpoint.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/ArrayStack.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/ArrayStack.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/Buffer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/Buffer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/Log.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/Log.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/LogFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/LogFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/impl/SimpleLog$1.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/impl/SimpleLog$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:org/apache/hadoop/yarn/factories/package-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:org/apache/hadoop/yarn/factories/package-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:org/apache/hadoop/yarn/factory/providers/package-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:org/apache/hadoop/yarn/factory/providers/package-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:org/apache/hadoop/yarn/util/package-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:org/apache/hadoop/yarn/util/package-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.4/spark-catalyst_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.4.4/spark-hive_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.4/spark-kvstore_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.4/spark-launcher_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.4/spark-network-common_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.4/spark-network-shuffle_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.4/spark-sketch_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.4/spark-sql_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.4.4/spark-streaming_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.4/spark-tags_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.4/spark-unsafe_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/Objenesis.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/Objenesis.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisBase.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisBase.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisHelper.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisHelper.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisSerializer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisSerializer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisStd.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisStd.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/ObjectInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/ObjectInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/SerializationInstantiatorHelper.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/SerializationInstantiatorHelper.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/AccessibleInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/AccessibleInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ConstructorInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ConstructorInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/NewInstanceInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/NewInstanceInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator$MockStream.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator$MockStream.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ObjectStreamClassInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ObjectStreamClassInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase$DummyStream.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase$DummyStream.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJSerializationInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJSerializationInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/perc/PercInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/perc/PercInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/perc/PercSerializationInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/perc/PercSerializationInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/sun/SunReflectionFactorySerializationInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/sun/SunReflectionFactorySerializationInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/BaseInstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/BaseInstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/InstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/InstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/SerializingInstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/SerializingInstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/StdInstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/StdInstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar:parquet.thrift
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0.jar:parquet.thrift
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar:plugin.xml
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar:plugin.xml
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar:plugin.xml
+[error] 	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:161)
+[error] 	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:43)
+[error] 	at sbtassembly.Assembly$.x$1$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:86)
+[error] 	at sbtassembly.Assembly$.inputs$1(Assembly.scala:76)
+[error] 	at sbtassembly.Assembly$.apply(Assembly.scala:103)
+[error] 	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:278)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+[error] 	at sbt.Execute.work(Execute.scala:290)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (assembly) deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:META-INF/versions/9/module-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:META-INF/versions/9/module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.jar:codegen/config.fmpp
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar:codegen/config.fmpp
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.jar:git.properties
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.jar:git.properties
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.jar:git.properties
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Inject.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Inject.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Named.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Named.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Provider.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Provider.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Qualifier.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Qualifier.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Scope.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Scope.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Singleton.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:javax/inject/Singleton.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/BytesMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/BytesMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Connection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Connection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ConnectionConsumer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ConnectionConsumer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ConnectionMetaData.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ConnectionMetaData.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/DeliveryMode.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/DeliveryMode.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Destination.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Destination.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ExceptionListener.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ExceptionListener.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/IllegalStateException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/IllegalStateException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/InvalidClientIDException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/InvalidClientIDException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/InvalidDestinationException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/InvalidDestinationException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/InvalidSelectorException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/InvalidSelectorException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/JMSException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/JMSException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/JMSSecurityException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/JMSSecurityException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MapMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MapMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Message.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Message.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageConsumer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageConsumer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageEOFException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageEOFException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageFormatException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageFormatException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageListener.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageListener.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageNotReadableException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageNotReadableException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageNotWriteableException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageNotWriteableException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/MessageProducer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/MessageProducer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ObjectMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ObjectMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Queue.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Queue.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueBrowser.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueBrowser.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueReceiver.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueReceiver.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueRequestor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueRequestor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueSender.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueSender.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/QueueSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/QueueSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ResourceAllocationException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ResourceAllocationException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ServerSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ServerSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/ServerSessionPool.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/ServerSessionPool.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Session.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Session.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/StreamMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/StreamMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TemporaryQueue.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TemporaryQueue.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TemporaryTopic.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TemporaryTopic.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TextMessage.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TextMessage.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/Topic.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/Topic.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicPublisher.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicPublisher.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicRequestor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicRequestor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TopicSubscriber.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TopicSubscriber.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TransactionInProgressException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TransactionInProgressException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/TransactionRolledBackException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/TransactionRolledBackException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAQueueConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAQueueConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAQueueConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAQueueConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XAQueueSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XAQueueSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XASession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XASession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XATopicConnection.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XATopicConnection.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XATopicConnectionFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XATopicConnectionFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:javax/jms/XATopicSession.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar:javax/jms/XATopicSession.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/XMLConstants.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:javax/xml/XMLConstants.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/namespace/NamespaceContext.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:javax/xml/namespace/NamespaceContext.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/namespace/QName.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:javax/xml/namespace/QName.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/EventFilter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/EventFilter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryConfigurationError.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryConfigurationError.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder$1.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinder.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinder.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinderConcrete.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder$ClassLoaderFinderConcrete.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/FactoryFinder.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/FactoryFinder.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/Location.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/Location.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/StreamFilter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/StreamFilter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLEventFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLEventFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLEventReader.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLEventReader.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLEventWriter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLEventWriter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLInputFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLInputFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLOutputFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLOutputFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLReporter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLReporter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLResolver.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLResolver.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamConstants.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamConstants.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamReader.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamReader.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/XMLStreamWriter.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/XMLStreamWriter.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Attribute.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Attribute.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Characters.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Characters.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Comment.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Comment.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/DTD.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/DTD.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EndDocument.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EndDocument.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EndElement.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EndElement.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EntityDeclaration.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EntityDeclaration.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/EntityReference.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/EntityReference.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/Namespace.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/Namespace.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/NotationDeclaration.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/NotationDeclaration.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/ProcessingInstruction.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/ProcessingInstruction.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/StartDocument.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/StartDocument.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/StartElement.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/StartElement.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/events/XMLEvent.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/events/XMLEvent.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/EventReaderDelegate.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/EventReaderDelegate.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/StreamReaderDelegate.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/StreamReaderDelegate.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/XMLEventAllocator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/XMLEventAllocator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:javax/xml/stream/util/XMLEventConsumer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:javax/xml/stream/util/XMLEventConsumer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/Advice.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/Advice.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/AspectException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/aop/AspectException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Interceptor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Interceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Invocation.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Invocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Joinpoint.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/Joinpoint.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/ArrayStack.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/ArrayStack.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/Buffer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/Buffer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/Log.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/Log.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/LogFactory.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/LogFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/impl/SimpleLog$1.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/impl/SimpleLog$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:org/apache/hadoop/yarn/factories/package-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:org/apache/hadoop/yarn/factories/package-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:org/apache/hadoop/yarn/factory/providers/package-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:org/apache/hadoop/yarn/factory/providers/package-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:org/apache/hadoop/yarn/util/package-info.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:org/apache/hadoop/yarn/util/package-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.4/spark-catalyst_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.4.4/spark-hive_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.4/spark-kvstore_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.4/spark-launcher_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.4/spark-network-common_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.4/spark-network-shuffle_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.4/spark-sketch_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.4/spark-sql_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.4.4/spark-streaming_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.4/spark-tags_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.4/spark-unsafe_2.11-2.4.4.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/Objenesis.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/Objenesis.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisBase.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisBase.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisException.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisException.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisHelper.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisHelper.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisSerializer.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisSerializer.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/ObjenesisStd.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/ObjenesisStd.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/ObjectInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/ObjectInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/SerializationInstantiatorHelper.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/SerializationInstantiatorHelper.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/AccessibleInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/AccessibleInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ConstructorInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ConstructorInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/NewInstanceInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/NewInstanceInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator$MockStream.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator$MockStream.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ObjectInputStreamInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/basic/ObjectStreamClassInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/basic/ObjectStreamClassInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase$DummyStream.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase$DummyStream.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJInstantiatorBase.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/gcj/GCJSerializationInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/gcj/GCJSerializationInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/perc/PercInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/perc/PercInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/perc/PercSerializationInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/perc/PercSerializationInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/instantiator/sun/SunReflectionFactorySerializationInstantiator.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/instantiator/sun/SunReflectionFactorySerializationInstantiator.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/BaseInstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/BaseInstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/InstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/InstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/SerializingInstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/SerializingInstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:org/objenesis/strategy/StdInstantiatorStrategy.class
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:org/objenesis/strategy/StdInstantiatorStrategy.class
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar:parquet.thrift
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0.jar:parquet.thrift
+[error] deduplicate: different file contents found in the following:
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar:plugin.xml
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar:plugin.xml
+[error] /home/ergo.liferunoffinsuranceplatform.com/kdamarla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar:plugin.xml
+[error] Total time: 10 s, completed Jul 28, 2020 1:42:09 PM

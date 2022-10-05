@@ -1,0 +1,16 @@
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/
+export SPARK_HOME=/Users/krishna/hadoop-installations/spark-2.3.3-bin-hadoop2.6
+export SBT_HOME=/Users/krishna/hadoop-installations/sbt
+export SCALA_HOME=/Users/krishna/hadoop-installations/scala-2.11.12
+export PATH=$JAVA_HOME/bin:$SBT_HOME/bin:$SBT_HOME/lib:$SCALA_HOME/bin:$SCALA_HOME/lib:$PATH
+export PATH=$JAVA_HOME/bin:$SPARK_HOME:$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
+# export PYTHONPATH=%SPARK_HOME%/python;%SPARK_HOME%/python/lib/py4j-0.10.7-src.zip:%PYTHONPATH%
+export PYSPARK_PYTHON=python3
+export DYLD_LIBRARY_PATH = /Users/krishna/Desktop/IBM-MQ-Client/9.1.4/lib64
+

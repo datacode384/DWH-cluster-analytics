@@ -1,0 +1,37 @@
+@Library('itergo-jenkins@develop')_
+node{
+    properties([disableConcurrentBuilds()])
+	//********* GLOBAL VARIABLES ********//
+	stage('Checkout from Github') {
+		checkout scm
+	}
+    stage('Download and Zip'){
+        dir("scripts") {
+            sh label: '', script: 'pwd'
+            sh label: '', script: 'chmod +x buildNexusArchiv.sh'
+            sh label: '', script: './buildNexusArchiv.sh $environment'
+        }
+    }
+    stage ('Upload to Nexus'){
+        dir("scripts") {
+            nexusArtifactUploader(
+                nexusVersion: 'nexus3',
+                protocol: 'https',
+                nexusUrl: 'sys0002.dev.ergo.liferunoffinsuranceplatform.com',
+		groupId: 'lip-raw-installation',
+                version: '$version',
+                repository: 'maven-releases',
+                credentialsId: 'maven-deploy-user',
+                artifacts: [
+                    [artifactId: 'hive_or_cognos_or_python_zip_file_name',
+                    classifier: '',
+                    type: 'zip',
+                    file: '$fileName']
+                ]
+            )
+        }
+    }
+    stage ('Clean WS') {
+		cleanWs()
+	}
+}

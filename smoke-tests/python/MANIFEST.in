@@ -1,0 +1,21 @@
+# Manifest syntax https://docs.python.org/2/distutils/sourcedist.html
+
+graft wheelhouse
+
+recursive-exclude __pycache__  *.pyc *.pyo *.orig *.js* *.git* *.coveragerc proc* pylint*
+
+#recursive-include  ./pyspark ./iws ./db2  *.py *.md *.sh *.conf *.txt 
+#recursive-include  ./db2/CONNECT_TO_DB2_CLIENT *.sql *.py *.md *.sh *.conf 
+
+graft ./pyspark 
+graft ./iws 
+graft ./db2
+
+graft ./db2/CONNECT_TO_DB2_CLIENT
+
+include requirements*.*
+include *.py
+
+prune .git
+prune venv
+prune test*

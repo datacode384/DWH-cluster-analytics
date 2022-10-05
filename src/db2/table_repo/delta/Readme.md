@@ -1,0 +1,1 @@
+Alter or other table alterations stmts like adding / removing columns etc

@@ -1,0 +1,13 @@
+# Manifest syntax https://docs.python.org/2/distutils/sourcedist.html
+
+graft wheelhouse
+
+recursive-exclude __pycache__  *.pyc *.pyo *.orig *.js* *.git* *.coveragerc proc* pylint*
+
+recursive-include ./venv ./scripts/monitoring ./scripts/wrapper_scripts requirements*.*  *.py *.jar *.md *.sh *.conf *.properties *.xslt
+
+recursive-include ./scripts/job_control ./scripts/deployment requirements*.*  *.py *.jar *.md *.sh *.conf *.properties *.xslt
+
+prune .git
+#prune venv
+prune test*

@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS  core.pas_ref_map_tpa_mandant  (lvid STRING, tpa_mandant  STRING, process_id  INTEGER, insert_tst  TIMESTAMP)  STORED AS parquet TBLPROPERTIES ('PARQUET.COMPRESS'='SNAPPY');

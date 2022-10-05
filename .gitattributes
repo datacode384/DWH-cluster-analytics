@@ -1,0 +1,5 @@
+xmlParser.zip filter=lfs diff=lfs merge=lfs -text
+ergotrg.zip filter=lfs diff=lfs merge=lfs -text
+spark-examples.zip filter=lfs diff=lfs merge=lfs -text
+csvParser.zip filter=lfs diff=lfs merge=lfs -text
+test.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,12 @@
+@Library('itergo-jenkins@develop')_
+node {
+        properties([disableConcurrentBuilds()])
+        //********* GLOBAL VARIABLES ********//
+        def globals = initGlobalVars(this, true, ["image.tag"], ["values.cit.yaml","values.feat.yaml"])
+        stage('Nexus Download') {
+                withCredentials([usernamePassword(credentialsId: 'maven-deploy-user', passwordVariable: 'MVN_PWD', usernameVariable: 'MVN_USER')]) {
+                        sh "echo mvnUser: $MVN_USER"
+                        sh "curl -L -u $MVN_USER:$MVN_PWD https://sys0002.dev.ergo.liferunoffinsuranceplatform.com/repository/lip-raw-installation/dwh/hive.tar.gz > /tmp/hive.tar.gz"
+                }
+        }
+}

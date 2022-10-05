@@ -1,0 +1,1 @@
+create or replace view test.v_par_bnka_me as select r.zeit_tst gueltig_am, l.* from core_view.v_par_bnka_hist l cross join demo_core.ref_zeit r where insert_tst<=r.zeit_tst<insert_tst_bis and gueltig_ab<=r.zeit_tst<gueltig_bis and flag_monat_ende = true order by bankl, gueltig_am;

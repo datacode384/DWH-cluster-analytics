@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS  raw_zone.pas_enumattr (enum  STRING, entity  STRING, attribute  STRING, customer  STRING, insert_tst  TIMESTAMP COMMENT 'Timestamp for creation of record.', source_system  INTEGER COMMENT 'Name of source system.')  PARTITIONED BY (process_id  INTEGER COMMENT 'Unique id for ETL-Processes.')  STORED AS parquet TBLPROPERTIES ('PARQUET.COMPRESS'='SNAPPY');

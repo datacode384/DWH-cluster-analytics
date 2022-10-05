@@ -1,0 +1,1 @@
+- run as ```python connect_db2.py```

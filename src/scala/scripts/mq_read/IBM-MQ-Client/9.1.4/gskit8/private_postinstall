@@ -1,0 +1,62 @@
+#! /bin/sh
+# (C) Copyright IBM Corp.  1997, 2005
+# The source code for this program is not published or otherwise
+# divested of its trade secrets, irrespective of what has been
+# deposited with the U.S. Copyright Office.
+#
+# make sure in same directory as this script
+#
+dir=`dirname $0`
+cd $dir
+
+
+# As this is a change in the original behavior
+# we only do the rpath, names fix-ups if they tell us to
+if [ "$1" == "FIXPATHS" ]; then
+
+#get the full path to our libs and bins
+#
+fullpath=`pwd`
+libdir=$fullpath/lib
+bindir=$fullpath/bin
+libs=`find $libdir -maxdepth 1 -name "*.dylib"`
+bins=`find $bindir -maxdepth 1 -name "gsk*"`
+
+# Fix up the rpaths for all libs
+# #
+for h in `echo $libs`; do \
+   libname=`basename $h`;
+   install_name_tool -delete_rpath ./ $h
+   install_name_tool -id $fullpath/lib/$libname $h
+done
+
+# Fix up the rpaths for all bins
+#
+for i in `echo $bins`; do \
+   install_name_tool -add_rpath $fullpath/lib/ $i
+done
+
+#
+# As we can be used by suid programs we need to update our
+# dependent library identifiers
+# to be full paths as relative paths are illegal for suid on osx.
+# The method below
+# is somewhat brute force but works as the documented behavior of
+# install_name_tool
+# is that if the -old name is not present the -change option is
+# ignored
+#
+for k in `echo $libs`; do \
+  for j in `echo $libs`; do \
+    if [ "$j" != "$k" ]; then
+       m=`basename $j`;
+       install_name_tool -change ./$m $fullpath/lib/$m $k
+    fi
+
+    for n in `echo $bins`; do \
+       install_name_tool -change ./$m $fullpath/lib/$m $n
+    done
+  done
+done
+fi
+exit 0

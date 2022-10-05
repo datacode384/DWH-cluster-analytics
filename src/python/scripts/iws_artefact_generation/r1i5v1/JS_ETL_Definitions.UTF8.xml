@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:TWSBatchApplicationInstance xmlns:model="http://www.ibm.com/xmlns/prod/scheduling/1.0/Model">
+   <model:Name>JS_ETL_NEU</model:Name>
+   <model:JobDefinition name="$JOB_R1I5V1_JC_START$" logon="root" folder="$FOLDER_/DWH$/" workstation="$WORKSTATION_DWH-NODE01$">
+      <model:task exec="/user/ERGO/scripts/r1i5v1_jc_start.sh" />
+      <model:recovery abendPrompt="Please restart the job" action="rerun" />
+   </model:JobDefinition>
+   <model:JobDefinition name="$JOB_R1I5V1_JC_STOP$" logon="root" folder="$FOLDER_/DWH$/" workstation="$WORKSTATION_DWH-NODE01$">
+      <model:task exec="/user/ERGO/scripts/r1i5v1_jc_stop.sh" />
+      <model:recovery abendPrompt="Please restart the job" action="rerun" />
+   </model:JobDefinition>
+   <model:JobDefinition name="$JOB_R1I5V1_LF_CORE_BEARBNW$" logon="root" folder="$FOLDER_/DWH$/" workstation="$WORKSTATION_DWH-NODE01$">
+      <model:task exec="/user/ERGO/scripts/r1i5v1_lf_core_bearbnw.sh" />
+      <model:recovery abendPrompt="Please restart the job" action="rerun" />
+   </model:JobDefinition>
+   <model:JobDefinition name="$JOB_R1I5V1_LF_RAW_ZONE_BEARBNW$" logon="root" folder="$FOLDER_/DWH$/" workstation="$WORKSTATION_DWH-NODE01$">
+      <model:task exec="/user/ERGO/scripts/r1i5v1_lf_raw_zone_bearbnw.sh" />
+      <model:recovery abendPrompt="Please restart the job" action="rerun" />
+   </model:JobDefinition>
+   <model:JobStream priority="101" name="$JOBSTREAM_JS_ETL$" folder="$FOLDER_/DWH$/" workstation="$WORKSTATION_DWH-NODE01$">
+      <model:matching>
+         <model:sameDay />
+      </model:matching>
+      <model:restrictions />
+      <model:dependencies />
+      <model:jobs>
+         <model:job name="$JOB_R1I5V1_JC_START$" confirmed="false" isCritical="false" iskey="false" defintion="$WORKSTATION_DWH-NODE01$#$FOLDER_/DWH$/$JOB_R1I5V1_JC_START$" priority="10">
+            <model:restrictions />
+            <model:dependencies />
+         </model:job>
+         <model:job name="$JOB_R1I5V1_JC_STOP$" confirmed="false" isCritical="false" iskey="false" defintion="$WORKSTATION_DWH-NODE01$#$FOLDER_/DWH$/$JOB_R1I5V1_JC_STOP$" priority="10">
+            <model:restrictions />
+            <model:dependencies>
+               <model:predecessor target="$JOB_R1I5V1_LF_CORE_BEARBNW$">
+                  <model:ConditionalDependency>
+                     <model:status name="SUCC" />
+                  </model:ConditionalDependency>
+               </model:predecessor>
+            </model:dependencies>
+         </model:job>
+         <model:job name="$JOB_R1I5V1_LF_CORE_BEARBNW$" confirmed="false" isCritical="false" iskey="false" defintion="$WORKSTATION_DWH-NODE01$#$FOLDER_/DWH$/$JOB_R1I5V1_LF_CORE_BEARBNW$" priority="10">
+            <model:restrictions />
+            <model:dependencies>
+               <model:predecessor target="$JOB_R1I5V1_LF_RAW_ZONE_BEARBNW$">
+                  <model:ConditionalDependency>
+                     <model:status name="SUCC" />
+                  </model:ConditionalDependency>
+               </model:predecessor>
+            </model:dependencies>
+         </model:job>
+         <model:job name="$JOB_R1I5V1_LF_RAW_ZONE_BEARBNW$" confirmed="false" isCritical="false" iskey="false" defintion="$WORKSTATION_DWH-NODE01$#$FOLDER_/DWH$/$JOB_R1I5V1_LF_RAW_ZONE_BEARBNW$" priority="10">
+            <model:restrictions />
+            <model:dependencies>
+               <model:predecessor target="$JOB_R1I5V1_JC_START$">
+                  <model:ConditionalDependency>
+                     <model:status name="SUCC" />
+                  </model:ConditionalDependency>
+               </model:predecessor>
+            </model:dependencies>
+         </model:job>
+      </model:jobs>
+   </model:JobStream>
+</model:TWSBatchApplicationInstance>
+
