@@ -1,4 +1,6 @@
-[MVP Prototype architecture](/DWH_Cluster_Analytics.pdf)
+[Business problem & solution](Business-problem-&-solution.pdf)
+
+[MVP presentation](/DWH_Cluster_Analytics.pdf)
 
 [Cloudera deployment](/Cloudera/Cloudera_DWH_deployment.pdf)
 
